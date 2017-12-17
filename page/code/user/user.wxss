@@ -1,0 +1,81 @@
+.head-div {
+  width: 100%;
+  text-align: center;
+  background: #FED955;
+}
+
+.head-icon {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.username {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.gray {
+  color: #8c8c8c;
+}
+
+.line {
+  height: 1px;
+  margin-left: 5px;
+  background: #acacac;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.data {
+  position: absolute;
+  right: 30px;
+}
+
+
+.item{
+  padding: 15px;
+}
+
+.item:active {
+  background: #ececec;
+}
+
+.setting {
+  
+}
+
+.record {
+  width: 100%;
+  float: left;
+  background: #FED955;
+}
+
+.left {
+  float: left;
+  width: 50%;
+  height: 60px;
+  text-align: center;
+}
+
+.right {
+   text-align: center;
+}
+
+
+.num{
+  font-size: 16px;
+}
+
+.small-text{
+  font-size: 12px;
+}

@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "page/code/user/user",
+    "page/code/details/details",
+    "page/code/report/report",
+    "page/code/plus/plus"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "我的记账",
+    "navigationBarBackgroundColor": "#2C2C30",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#888888",
+    "selectedColor": "#000000",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "page/code/details/details",
+        "iconPath": "page/images/icon_account.png",
+        "selectedIconPath": "page/images/icon_account1.png",
+        "text": "明细"
+      },
+      {
+        "pagePath": "page/code/report/report",
+        "iconPath": "page/images/icon_report.png",
+        "selectedIconPath": "page/images/icon_report1.png",
+        "text": "报表"
+      },
+        {
+          "pagePath": "page/code/plus/plus",
+          "iconPath": "page/images/plus.png",
+          "selectedIconPath": "page/images/plus1.png",
+          "text": "记账"
+        },
+      {
+        "pagePath": "page/code/user/user",
+        "iconPath": "page/images/icon_my.png",
+        "selectedIconPath": "page/images/icon_my1.png",
+        "text": "我"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 30000,
+    "connectSocket": 30000,
+    "uploadFile": 30000,
+    "downloadFile": 30000
+  },
+  "debug": false
+}

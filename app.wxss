@@ -1,0 +1,27 @@
+page {
+  font-size: 16px;
+  font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+.right-jt {
+  position: absolute;
+  right: 30px;
+  text-align: center;
+}
+
+.right-jt::after, .right-jt::before {
+  border: 6px solid transparent;
+  border-left: 8px solid #fff;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  right: -20px;
+  top: 6px;
+  content: ' ';
+}
+
+.right-jt::before {
+  border-left-color: #acacac;
+  right: -21px;
+}
